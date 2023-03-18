@@ -77,7 +77,7 @@
             this.btnCerrar.Size = new System.Drawing.Size(17, 17);
             this.btnCerrar.TabIndex = 3;
             this.btnCerrar.Text = "X";
-            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
+            this.btnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
             // 
             // textBox1
             // 
