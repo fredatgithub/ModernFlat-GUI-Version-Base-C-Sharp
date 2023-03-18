@@ -76,7 +76,7 @@ namespace GUI_V_2
 
     private void Btnprod_Click(object sender, EventArgs e)
     {
-      AbrirFormEnPanel(new Productos());
+      AbrirFormEnPanel(new Products());
     }
 
     private void BtnlogoInicio_Click(object sender, EventArgs e)

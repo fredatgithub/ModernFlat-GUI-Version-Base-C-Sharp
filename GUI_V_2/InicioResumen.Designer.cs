@@ -30,8 +30,8 @@
         {
       this.components = new System.ComponentModel.Container();
       System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InicioResumen));
-      System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-      System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+      System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+      System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
       this.label9 = new System.Windows.Forms.Label();
       this.panel3 = new System.Windows.Forms.Panel();
       this.label11 = new System.Windows.Forms.Label();
@@ -221,9 +221,9 @@
       this.LabelDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
       this.LabelDate.Location = new System.Drawing.Point(505, 232);
       this.LabelDate.Name = "LabelDate";
-      this.LabelDate.Size = new System.Drawing.Size(516, 40);
+      this.LabelDate.Size = new System.Drawing.Size(464, 40);
       this.LabelDate.TabIndex = 29;
-      this.LabelDate.Text = "Miercoles, 10  noviembre  2017";
+      this.LabelDate.Text = "Saturday, 18th  March 2023";
       // 
       // LabelHour
       // 
@@ -305,24 +305,24 @@
       this.TablaProductos.BackgroundColor = System.Drawing.Color.WhiteSmoke;
       this.TablaProductos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
       this.TablaProductos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-      dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-      dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-      dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      dataGridViewCellStyle3.ForeColor = System.Drawing.Color.WhiteSmoke;
-      dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.LightSeaGreen;
-      dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
-      dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-      this.TablaProductos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+      dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+      dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+      dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      dataGridViewCellStyle5.ForeColor = System.Drawing.Color.WhiteSmoke;
+      dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.LightSeaGreen;
+      dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+      dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+      this.TablaProductos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
       this.TablaProductos.ColumnHeadersHeight = 30;
       this.TablaProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-      dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-      dataGridViewCellStyle4.BackColor = System.Drawing.Color.WhiteSmoke;
-      dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-      dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-      dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-      dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-      this.TablaProductos.DefaultCellStyle = dataGridViewCellStyle4;
+      dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+      dataGridViewCellStyle6.BackColor = System.Drawing.Color.WhiteSmoke;
+      dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+      dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+      dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+      dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+      this.TablaProductos.DefaultCellStyle = dataGridViewCellStyle6;
       this.TablaProductos.EnableHeadersVisualStyles = false;
       this.TablaProductos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
       this.TablaProductos.Location = new System.Drawing.Point(13, 232);

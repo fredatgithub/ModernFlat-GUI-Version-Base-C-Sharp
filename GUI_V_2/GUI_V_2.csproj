@@ -57,11 +57,11 @@
     <Compile Include="InicioResumen.Designer.cs">
       <DependentUpon>InicioResumen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Productos.cs">
+    <Compile Include="Products.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Productos.Designer.cs">
-      <DependentUpon>Productos.cs</DependentUpon>
+    <Compile Include="Products.Designer.cs">
+      <DependentUpon>Products.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,8 +71,8 @@
     <EmbeddedResource Include="InicioResumen.resx">
       <DependentUpon>InicioResumen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Productos.resx">
-      <DependentUpon>Productos.cs</DependentUpon>
+    <EmbeddedResource Include="Products.resx">
+      <DependentUpon>Products.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
