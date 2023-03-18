@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs
+/GUI_V_2/GUI_V_2.csproj.user
+/GUI_V_2/obj/Debug/GUI_V_2.exe
+/GUI_V_2/obj/Debug/GUI_V_2.pdb
+*.pdb
+/GUI_V_2/bin/Debug/GUI_V_2.exe
+/GUI_V_2/bin/Debug/GUI_V_2.exe.config
