@@ -30,17 +30,17 @@
         {
       this.components = new System.ComponentModel.Container();
       System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InicioResumen));
-      System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-      System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-      this.label9 = new System.Windows.Forms.Label();
+      System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+      System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+      this.labelProductsBottom = new System.Windows.Forms.Label();
       this.panel3 = new System.Windows.Forms.Panel();
       this.label11 = new System.Windows.Forms.Label();
       this.label12 = new System.Windows.Forms.Label();
       this.pictureBox4 = new System.Windows.Forms.PictureBox();
       this.panel4 = new System.Windows.Forms.Panel();
       this.panel1 = new System.Windows.Forms.Panel();
-      this.label5 = new System.Windows.Forms.Label();
-      this.label6 = new System.Windows.Forms.Label();
+      this.labelEmployeesBottom = new System.Windows.Forms.Label();
+      this.labelEmployeesTop = new System.Windows.Forms.Label();
       this.pictureBox2 = new System.Windows.Forms.PictureBox();
       this.panel2 = new System.Windows.Forms.Panel();
       this.LabelDate = new System.Windows.Forms.Label();
@@ -52,21 +52,21 @@
       this.pictureBox7 = new System.Windows.Forms.PictureBox();
       this.panel14 = new System.Windows.Forms.Panel();
       this.TablaProductos = new System.Windows.Forms.DataGridView();
-      this.label10 = new System.Windows.Forms.Label();
-      this.label16 = new System.Windows.Forms.Label();
+      this.labelProductsTop = new System.Windows.Forms.Label();
+      this.labelProductsInStock = new System.Windows.Forms.Label();
       this.label15 = new System.Windows.Forms.Label();
       this.panel11 = new System.Windows.Forms.Panel();
-      this.label7 = new System.Windows.Forms.Label();
-      this.label8 = new System.Windows.Forms.Label();
+      this.labelProvidersBottom = new System.Windows.Forms.Label();
+      this.labelProvidersTop = new System.Windows.Forms.Label();
       this.pictureBox6 = new System.Windows.Forms.PictureBox();
       this.panel12 = new System.Windows.Forms.Panel();
       this.panel9 = new System.Windows.Forms.Panel();
-      this.label2 = new System.Windows.Forms.Label();
+      this.labelClients = new System.Windows.Forms.Label();
       this.pictureBox1 = new System.Windows.Forms.PictureBox();
       this.panel10 = new System.Windows.Forms.Panel();
       this.label3 = new System.Windows.Forms.Label();
       this.label4 = new System.Windows.Forms.Label();
-      this.label1 = new System.Windows.Forms.Label();
+      this.labelClientTop = new System.Windows.Forms.Label();
       this.panel7 = new System.Windows.Forms.Panel();
       this.label13 = new System.Windows.Forms.Label();
       this.label14 = new System.Windows.Forms.Label();
@@ -93,16 +93,17 @@
       this.panel5.SuspendLayout();
       this.SuspendLayout();
       // 
-      // label9
+      // labelProductsBottom
       // 
-      this.label9.AutoSize = true;
-      this.label9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label9.ForeColor = System.Drawing.Color.DodgerBlue;
-      this.label9.Location = new System.Drawing.Point(23, 113);
-      this.label9.Name = "label9";
-      this.label9.Size = new System.Drawing.Size(33, 20);
-      this.label9.TabIndex = 16;
-      this.label9.Text = "lbl1";
+      this.labelProductsBottom.AutoSize = true;
+      this.labelProductsBottom.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.labelProductsBottom.ForeColor = System.Drawing.Color.DodgerBlue;
+      this.labelProductsBottom.Location = new System.Drawing.Point(23, 113);
+      this.labelProductsBottom.Name = "labelProductsBottom";
+      this.labelProductsBottom.Size = new System.Drawing.Size(73, 20);
+      this.labelProductsBottom.TabIndex = 16;
+      this.labelProductsBottom.Text = "Products";
+      this.labelProductsBottom.Click += new System.EventHandler(this.label9_Click);
       // 
       // panel3
       // 
@@ -161,8 +162,8 @@
       // panel1
       // 
       this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-      this.panel1.Controls.Add(this.label5);
-      this.panel1.Controls.Add(this.label6);
+      this.panel1.Controls.Add(this.labelEmployeesBottom);
+      this.panel1.Controls.Add(this.labelEmployeesTop);
       this.panel1.Controls.Add(this.pictureBox2);
       this.panel1.Controls.Add(this.panel2);
       this.panel1.ForeColor = System.Drawing.Color.SeaGreen;
@@ -171,28 +172,30 @@
       this.panel1.Size = new System.Drawing.Size(110, 150);
       this.panel1.TabIndex = 30;
       // 
-      // label5
+      // labelEmployeesBottom
       // 
-      this.label5.AutoSize = true;
-      this.label5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label5.ForeColor = System.Drawing.Color.RoyalBlue;
-      this.label5.Location = new System.Drawing.Point(32, 115);
-      this.label5.Name = "label5";
-      this.label5.Size = new System.Drawing.Size(33, 20);
-      this.label5.TabIndex = 16;
-      this.label5.Text = "lbl1";
+      this.labelEmployeesBottom.AutoSize = true;
+      this.labelEmployeesBottom.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.labelEmployeesBottom.ForeColor = System.Drawing.Color.RoyalBlue;
+      this.labelEmployeesBottom.Location = new System.Drawing.Point(11, 115);
+      this.labelEmployeesBottom.Name = "labelEmployeesBottom";
+      this.labelEmployeesBottom.Size = new System.Drawing.Size(87, 20);
+      this.labelEmployeesBottom.TabIndex = 16;
+      this.labelEmployeesBottom.Text = "Employees";
+      this.labelEmployeesBottom.Click += new System.EventHandler(this.labelEmployeesBottom_Click);
       // 
-      // label6
+      // labelEmployeesTop
       // 
-      this.label6.AutoSize = true;
-      this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-      this.label6.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label6.ForeColor = System.Drawing.Color.White;
-      this.label6.Location = new System.Drawing.Point(10, 4);
-      this.label6.Name = "label6";
-      this.label6.Size = new System.Drawing.Size(89, 20);
-      this.label6.TabIndex = 15;
-      this.label6.Text = "Empleados";
+      this.labelEmployeesTop.AutoSize = true;
+      this.labelEmployeesTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+      this.labelEmployeesTop.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.labelEmployeesTop.ForeColor = System.Drawing.Color.White;
+      this.labelEmployeesTop.Location = new System.Drawing.Point(10, 4);
+      this.labelEmployeesTop.Name = "labelEmployeesTop";
+      this.labelEmployeesTop.Size = new System.Drawing.Size(87, 20);
+      this.labelEmployeesTop.TabIndex = 15;
+      this.labelEmployeesTop.Text = "Employees";
+      this.labelEmployeesTop.Click += new System.EventHandler(this.label6_Click);
       // 
       // pictureBox2
       // 
@@ -305,24 +308,24 @@
       this.TablaProductos.BackgroundColor = System.Drawing.Color.WhiteSmoke;
       this.TablaProductos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
       this.TablaProductos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-      dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-      dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-      dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      dataGridViewCellStyle5.ForeColor = System.Drawing.Color.WhiteSmoke;
-      dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.LightSeaGreen;
-      dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
-      dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-      this.TablaProductos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+      dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+      dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+      dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      dataGridViewCellStyle3.ForeColor = System.Drawing.Color.WhiteSmoke;
+      dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.LightSeaGreen;
+      dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+      dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+      this.TablaProductos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
       this.TablaProductos.ColumnHeadersHeight = 30;
       this.TablaProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-      dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-      dataGridViewCellStyle6.BackColor = System.Drawing.Color.WhiteSmoke;
-      dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-      dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-      dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-      dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-      this.TablaProductos.DefaultCellStyle = dataGridViewCellStyle6;
+      dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+      dataGridViewCellStyle4.BackColor = System.Drawing.Color.WhiteSmoke;
+      dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+      dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+      dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+      dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+      this.TablaProductos.DefaultCellStyle = dataGridViewCellStyle4;
       this.TablaProductos.EnableHeadersVisualStyles = false;
       this.TablaProductos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
       this.TablaProductos.Location = new System.Drawing.Point(13, 232);
@@ -332,28 +335,29 @@
       this.TablaProductos.Size = new System.Drawing.Size(464, 330);
       this.TablaProductos.TabIndex = 39;
       // 
-      // label10
+      // labelProductsTop
       // 
-      this.label10.AutoSize = true;
-      this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-      this.label10.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label10.ForeColor = System.Drawing.Color.White;
-      this.label10.Location = new System.Drawing.Point(14, 4);
-      this.label10.Name = "label10";
-      this.label10.Size = new System.Drawing.Size(83, 20);
-      this.label10.TabIndex = 15;
-      this.label10.Text = "Productos";
+      this.labelProductsTop.AutoSize = true;
+      this.labelProductsTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+      this.labelProductsTop.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.labelProductsTop.ForeColor = System.Drawing.Color.White;
+      this.labelProductsTop.Location = new System.Drawing.Point(14, 4);
+      this.labelProductsTop.Name = "labelProductsTop";
+      this.labelProductsTop.Size = new System.Drawing.Size(73, 20);
+      this.labelProductsTop.TabIndex = 15;
+      this.labelProductsTop.Text = "Products";
       // 
-      // label16
+      // labelProductsInStock
       // 
-      this.label16.AutoSize = true;
-      this.label16.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-      this.label16.Location = new System.Drawing.Point(9, 202);
-      this.label16.Name = "label16";
-      this.label16.Size = new System.Drawing.Size(176, 21);
-      this.label16.TabIndex = 38;
-      this.label16.Text = "Productos bajo stock:";
+      this.labelProductsInStock.AutoSize = true;
+      this.labelProductsInStock.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.labelProductsInStock.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+      this.labelProductsInStock.Location = new System.Drawing.Point(9, 202);
+      this.labelProductsInStock.Name = "labelProductsInStock";
+      this.labelProductsInStock.Size = new System.Drawing.Size(144, 21);
+      this.labelProductsInStock.TabIndex = 38;
+      this.labelProductsInStock.Text = "Products in stock:";
+      this.labelProductsInStock.Click += new System.EventHandler(this.label16_Click);
       // 
       // label15
       // 
@@ -369,8 +373,8 @@
       // panel11
       // 
       this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-      this.panel11.Controls.Add(this.label7);
-      this.panel11.Controls.Add(this.label8);
+      this.panel11.Controls.Add(this.labelProvidersBottom);
+      this.panel11.Controls.Add(this.labelProvidersTop);
       this.panel11.Controls.Add(this.pictureBox6);
       this.panel11.Controls.Add(this.panel12);
       this.panel11.Location = new System.Drawing.Point(307, 30);
@@ -378,28 +382,29 @@
       this.panel11.Size = new System.Drawing.Size(110, 150);
       this.panel11.TabIndex = 35;
       // 
-      // label7
+      // labelProvidersBottom
       // 
-      this.label7.AutoSize = true;
-      this.label7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label7.ForeColor = System.Drawing.Color.Crimson;
-      this.label7.Location = new System.Drawing.Point(36, 114);
-      this.label7.Name = "label7";
-      this.label7.Size = new System.Drawing.Size(33, 20);
-      this.label7.TabIndex = 16;
-      this.label7.Text = "lbl1";
+      this.labelProvidersBottom.AutoSize = true;
+      this.labelProvidersBottom.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.labelProvidersBottom.ForeColor = System.Drawing.Color.Crimson;
+      this.labelProvidersBottom.Location = new System.Drawing.Point(17, 117);
+      this.labelProvidersBottom.Name = "labelProvidersBottom";
+      this.labelProvidersBottom.Size = new System.Drawing.Size(77, 20);
+      this.labelProvidersBottom.TabIndex = 16;
+      this.labelProvidersBottom.Text = "Providers";
+      this.labelProvidersBottom.Click += new System.EventHandler(this.label7_Click);
       // 
-      // label8
+      // labelProvidersTop
       // 
-      this.label8.AutoSize = true;
-      this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-      this.label8.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label8.ForeColor = System.Drawing.Color.White;
-      this.label8.Location = new System.Drawing.Point(4, 2);
-      this.label8.Name = "label8";
-      this.label8.Size = new System.Drawing.Size(104, 20);
-      this.label8.TabIndex = 15;
-      this.label8.Text = "Proveedores";
+      this.labelProvidersTop.AutoSize = true;
+      this.labelProvidersTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+      this.labelProvidersTop.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.labelProvidersTop.ForeColor = System.Drawing.Color.White;
+      this.labelProvidersTop.Location = new System.Drawing.Point(4, 2);
+      this.labelProvidersTop.Name = "labelProvidersTop";
+      this.labelProvidersTop.Size = new System.Drawing.Size(77, 20);
+      this.labelProvidersTop.TabIndex = 15;
+      this.labelProvidersTop.Text = "Providers";
       // 
       // pictureBox6
       // 
@@ -423,7 +428,7 @@
       // panel9
       // 
       this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-      this.panel9.Controls.Add(this.label2);
+      this.panel9.Controls.Add(this.labelClients);
       this.panel9.Controls.Add(this.pictureBox1);
       this.panel9.Controls.Add(this.panel10);
       this.panel9.Location = new System.Drawing.Point(18, 28);
@@ -431,16 +436,16 @@
       this.panel9.Size = new System.Drawing.Size(110, 150);
       this.panel9.TabIndex = 36;
       // 
-      // label2
+      // labelClients
       // 
-      this.label2.AutoSize = true;
-      this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label2.ForeColor = System.Drawing.Color.SeaGreen;
-      this.label2.Location = new System.Drawing.Point(23, 116);
-      this.label2.Name = "label2";
-      this.label2.Size = new System.Drawing.Size(33, 20);
-      this.label2.TabIndex = 1;
-      this.label2.Text = "lbl1";
+      this.labelClients.AutoSize = true;
+      this.labelClients.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.labelClients.ForeColor = System.Drawing.Color.SeaGreen;
+      this.labelClients.Location = new System.Drawing.Point(20, 116);
+      this.labelClients.Name = "labelClients";
+      this.labelClients.Size = new System.Drawing.Size(57, 20);
+      this.labelClients.TabIndex = 1;
+      this.labelClients.Text = "Clients";
       // 
       // pictureBox1
       // 
@@ -457,7 +462,7 @@
       this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
       this.panel10.Controls.Add(this.label3);
       this.panel10.Controls.Add(this.label4);
-      this.panel10.Controls.Add(this.label1);
+      this.panel10.Controls.Add(this.labelClientTop);
       this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
       this.panel10.Location = new System.Drawing.Point(0, 0);
       this.panel10.Name = "panel10";
@@ -486,16 +491,16 @@
       this.label4.TabIndex = 2;
       this.label4.Text = "Clientes";
       // 
-      // label1
+      // labelClientTop
       // 
-      this.label1.AutoSize = true;
-      this.label1.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label1.ForeColor = System.Drawing.Color.White;
-      this.label1.Location = new System.Drawing.Point(20, 4);
-      this.label1.Name = "label1";
-      this.label1.Size = new System.Drawing.Size(67, 20);
-      this.label1.TabIndex = 0;
-      this.label1.Text = "Clientes";
+      this.labelClientTop.AutoSize = true;
+      this.labelClientTop.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.labelClientTop.ForeColor = System.Drawing.Color.White;
+      this.labelClientTop.Location = new System.Drawing.Point(20, 4);
+      this.labelClientTop.Name = "labelClientTop";
+      this.labelClientTop.Size = new System.Drawing.Size(57, 20);
+      this.labelClientTop.TabIndex = 0;
+      this.labelClientTop.Text = "Clients";
       // 
       // panel7
       // 
@@ -573,8 +578,8 @@
       // panel5
       // 
       this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-      this.panel5.Controls.Add(this.label9);
-      this.panel5.Controls.Add(this.label10);
+      this.panel5.Controls.Add(this.labelProductsBottom);
+      this.panel5.Controls.Add(this.labelProductsTop);
       this.panel5.Controls.Add(this.pictureBox3);
       this.panel5.Controls.Add(this.panel6);
       this.panel5.Location = new System.Drawing.Point(450, 31);
@@ -594,7 +599,7 @@
       this.Controls.Add(this.LabelHour);
       this.Controls.Add(this.panel13);
       this.Controls.Add(this.TablaProductos);
-      this.Controls.Add(this.label16);
+      this.Controls.Add(this.labelProductsInStock);
       this.Controls.Add(this.label15);
       this.Controls.Add(this.panel11);
       this.Controls.Add(this.panel9);
@@ -634,15 +639,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label labelProductsBottom;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelEmployeesBottom;
+        private System.Windows.Forms.Label labelEmployeesTop;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label LabelDate;
@@ -654,21 +659,21 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.DataGridView TablaProductos;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label labelProductsTop;
+        private System.Windows.Forms.Label labelProductsInStock;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label labelProvidersBottom;
+        private System.Windows.Forms.Label labelProvidersTop;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelClients;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelClientTop;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;

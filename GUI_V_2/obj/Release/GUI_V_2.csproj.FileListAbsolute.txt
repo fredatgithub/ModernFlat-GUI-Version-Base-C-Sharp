@@ -1,0 +1,13 @@
+f:\Repos\ModernFlat-GUI-Version-Base-C-Sharp\GUI_V_2\bin\Release\GUI_V_2.exe.config
+f:\Repos\ModernFlat-GUI-Version-Base-C-Sharp\GUI_V_2\bin\Release\GUI_V_2.exe
+f:\Repos\ModernFlat-GUI-Version-Base-C-Sharp\GUI_V_2\bin\Release\GUI_V_2.pdb
+f:\Repos\ModernFlat-GUI-Version-Base-C-Sharp\GUI_V_2\obj\Release\GUI_V_2.csproj.AssemblyReference.cache
+f:\Repos\ModernFlat-GUI-Version-Base-C-Sharp\GUI_V_2\obj\Release\GUI_V_2.csproj.SuggestedBindingRedirects.cache
+f:\Repos\ModernFlat-GUI-Version-Base-C-Sharp\GUI_V_2\obj\Release\GUI_V_2.FormMain.resources
+f:\Repos\ModernFlat-GUI-Version-Base-C-Sharp\GUI_V_2\obj\Release\GUI_V_2.InicioResumen.resources
+f:\Repos\ModernFlat-GUI-Version-Base-C-Sharp\GUI_V_2\obj\Release\GUI_V_2.Products.resources
+f:\Repos\ModernFlat-GUI-Version-Base-C-Sharp\GUI_V_2\obj\Release\GUI_V_2.Properties.Resources.resources
+f:\Repos\ModernFlat-GUI-Version-Base-C-Sharp\GUI_V_2\obj\Release\GUI_V_2.csproj.GenerateResource.cache
+f:\Repos\ModernFlat-GUI-Version-Base-C-Sharp\GUI_V_2\obj\Release\GUI_V_2.csproj.CoreCompileInputs.cache
+f:\Repos\ModernFlat-GUI-Version-Base-C-Sharp\GUI_V_2\obj\Release\GUI_V_2.exe
+f:\Repos\ModernFlat-GUI-Version-Base-C-Sharp\GUI_V_2\obj\Release\GUI_V_2.pdb

@@ -15,5 +15,30 @@ namespace GUI_V_2
       LabelHour.Text = DateTime.Now.ToString("hh:mm:ss ");
       LabelDate.Text = DateTime.Now.ToLongDateString();
     }
+
+    private void label6_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void labelEmployeesBottom_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void label7_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void label9_Click(object sender, EventArgs e)
+    {
+
+    }
+
+    private void label16_Click(object sender, EventArgs e)
+    {
+
+    }
   }
 }
